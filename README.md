@@ -41,7 +41,8 @@ pip install -r requirements.txt
 
 3. Download the pre-trained model
 ```bash
-gdown --id 1ao1ovG1Qtx4b7EoskHXmi2E9rp5CHLcZ -O ./ckpt/u2net.pth
+mkdir ./webapp/ckpt
+gdown 1ao1ovG1Qtx4b7EoskHXmi2E9rp5CHLcZ -O ./ckpt/u2net.pth
 ```
 
 
