@@ -35,7 +35,10 @@ cd bg-remove-augment
 
 2. Install dependencies
 ```bash
+py -m venv .env 
+.env\Scripts\activate
 pip install -r requirements.txt
+py -m pip install jinja2
 ```
 
 
